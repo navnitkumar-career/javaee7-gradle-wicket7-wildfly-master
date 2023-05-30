@@ -1,0 +1,25 @@
+<wicket:extend xmlns:wicket>
+	<div class="container-fluid appbackground">
+		<div class="row gbc-compact">
+			<div class="container-fluid pagebackground">
+				<div class="row">
+					<div class="container-fluid contentbackground">
+						<div class="row">
+							<wicket:container wicket:id="version">7.0.0-SNAPSHOT</wicket:container>
+							<ul data-role="listview" data-filter="true" data-filter-placeholder="Search fruits..." data-inset="true">
+							    <li><a href="#">Apple</a></li>
+							    <li><a href="#">Banana</a></li>
+							    <li><a href="#">Cherry</a></li>
+							    <li><a href="#">Cranberry</a></li>
+							    <li><a href="#">Grape</a></li>
+							    <li><a href="#">Orange</a></li>
+							</ul>
+						</div>
+					</div>
+					<wicket:child />
+				</div>
+			</div>
+		</div>
+	</div>
+	 <div wicket:id="debug"></div> 
+</wicket:extend>
